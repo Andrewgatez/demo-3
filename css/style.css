@@ -1,0 +1,33 @@
+.parent--container {
+    background-color: #e5e5e5;
+    height: 800px;
+    position: relative;
+    max-width: 60%;
+}
+
+.circle-1 {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.circle-2 {
+    border: 1px solid green;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 18%;
+}
+
+.circle-3 {
+    border: 1px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+}
